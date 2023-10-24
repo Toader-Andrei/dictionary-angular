@@ -5,7 +5,7 @@ import { Word } from './models/interfaces/word.interface';
 import { Synonym } from './models/interfaces/synonym-interface';
 import { Antonyms } from './models/interfaces/antonyms-interface';
 import { Examples } from './models/interfaces/examples-interface';
-import { environment } from '../environmets/environmets';
+import { environment } from '../environmets/environment';
 
 @Injectable({
   providedIn: 'root',

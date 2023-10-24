@@ -31,6 +31,18 @@ Dictionary is a sophisticated and user-friendly dictionary application designed 
 
 ## Running the project locally:
 
+#### Note: Due to security and billing reasons, the API key has been excluded from the project.
+
+#### Please see below from futher intructions.
+
 ### `1. npm install`
 
-### `2. ng serve --open`
+### `2. Create environment.ts file under src/enviroments`
+
+### `3. For the environment constant add a new key called 'apiKey'.`
+
+### `4. Create an API key at https://www.wordsapi.com/docs/?javascript#introduction`
+
+### `5. Use the API key in the enviroment.ts file`
+
+### `6. ng serve --open`
