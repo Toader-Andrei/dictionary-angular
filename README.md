@@ -1,8 +1,8 @@
-# Dictionary - Words application developted with WordsApi
+# Dictionary - Angular words application developed with WordsApi
 
 ## Application description:
 
-Dictionary is a sophisticated and user-friendly dictionary application designed to enhance your vocabulary and language skills. Crafted with a seamless blend of cutting-edge technologies including HTML, SCSS, JavaScript, and TypeScript, Dictionary is your go-to resource for exploring the depths of language. It includes a numerous list of fuctionalities such as:
+Dictionary is a sophisticated and user-friendly dictionary application designed to enhance your vocabulary and language skills. Crafted with a seamless blend of cutting-edge technologies including HTML, SCSS, TypeScript and Angular. Dictionary is your go-to resource for exploring the depths of language. It includes a numerous list of fuctionalities such as:
 
 - `Search bar:` The search bar in our online Dictionary application serves as the user's gateway to a vast world of words and meanings.
 - `History:` Users can select the words that they already searched and wanted to see something they forgot.
