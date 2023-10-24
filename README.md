@@ -41,7 +41,7 @@ Dictionary is a sophisticated and user-friendly dictionary application designed 
 
 ### `3. For the environment constant add a new key called 'apiKey'.`
 
-### `4. Create an API key at [Words API]`(https://www.wordsapi.com/docs/?javascript#introduction)
+### `4. Create an API key at Words API website: ` https://www.wordsapi.com/docs/?javascript#introduction
 
 ### `5. Use the API key in the enviroment.ts file`
 
