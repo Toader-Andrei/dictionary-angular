@@ -1,0 +1,72 @@
+<div class="mt-3" *ngIf="word">
+  <div class="d-flex justify-content-center align-items-center">
+    <h1 class="pt-1 text-center">
+      {{ definition.word | uppercase }}
+    </h1>
+    <h4 *ngFor="let syllables of definition.syllables.list" class="ps-3">
+      [{{ syllables }}]
+    </h4>
+  </div>
+
+  <hr />
+  <div class="container">
+    <section class="mt-4">
+      <h3 class="text-center capitalize">
+        {{ definition.results[0].definition }}
+      </h3>
+    </section>
+
+    <section class="mt-4">
+      <h4>
+        SYNONYMS FOR
+        <span class="underline">{{ definition.word | uppercase }}</span>
+      </h4>
+
+      <div class="row">
+        <p *ngIf="!synonymsResponse.synonyms.length">
+          There is no synonyms for
+          <span class="underline">{{ definition.word | uppercase }}</span
+          >.
+        </p>
+        <div class="col-3" *ngFor="let word of synonymsResponse.synonyms">
+          <p class="list-group-item list-group-item-success m-1 rounded-pill">
+            {{ word }}
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-4">
+      <h4>
+        ANTONYMS FOR
+        <span class="underline">{{ definition.word | uppercase }}</span>
+      </h4>
+      <div class="row">
+        <p *ngIf="!antonymsResponse.antonyms.length">
+          There is no antonyms for
+          <span class="underline">{{ definition.word | uppercase }}</span
+          >.
+        </p>
+        <div class="col-2" *ngFor="let word of antonymsResponse.antonyms">
+          <p class="list-group-item list-group-item-danger m-1 rounded-pill">
+            {{ word }}
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-4">
+      <h4>
+        How to use
+        <span class="underline">{{ definition.word | uppercase }}</span> in a
+        sentence
+      </h4>
+      <p
+        class="capitalize"
+        *ngFor="let example of examplesResponse.examples | slice : 0 : 3"
+      >
+        {{ example }}.
+      </p>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6 col-lg-2 p-0">
+      <div class="container sidebar">
+        <app-search (onWordSearch)="onWordSearch($event)"></app-search>
+        <app-history
+          [list]="history"
+          (onHistoryReload)="onHistorySearch($event)"
+        ></app-history>
+      </div>
+    </div>
+    <div class="col-6 col-lg-10">
+      <app-word class="fw-1" [word]="word"></app-word>
+    </div>
+  </div>
+</div>

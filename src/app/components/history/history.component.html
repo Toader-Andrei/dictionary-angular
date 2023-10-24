@@ -1,0 +1,15 @@
+<div class="history mt-4">
+  <div class="px-2">
+    <p
+      class="mb-0 d-flex justify-content-center align-items-center"
+      (click)="onHistoryClick(word)"
+      *ngFor="let word of list"
+    >
+      {{ word }}
+      <i
+        class="fa-regular fa-trash-can ps-2"
+        (click)="onHistoryDelete(word)"
+      ></i>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<form (ngSubmit)="onSubmit()">
+  <h1 class="title">WORDS</h1>
+  <div class="d-flex position-relative">
+    <input
+      type="text"
+      class="form-control"
+      id="inputArea"
+      placeholder="Start typing any word or phrase"
+      name="word"
+      [(ngModel)]="word"
+    />
+    <button type="button" class="btn btn-info" (click)="onSubmit()">
+      <i class="fa-solid fa-magnifying-glass d-flex"></i>
+    </button>
+  </div>
+  <div class="creditials d-flex align-items-center justify-content-center">
+    <p>
+      Copyright © 2023 All rights reserved | This template was made with
+      <i class="fa fa-heart-o" aria-hidden="true"></i>
+
+      by
+      <a href="https://github.com/Toader-Andrei" target="_blank"
+        >Toader Andrei</a
+      >
+    </p>
+  </div>
+</form>

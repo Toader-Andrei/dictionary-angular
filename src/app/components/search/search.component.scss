@@ -1,0 +1,33 @@
+.title {
+    font-family: 'Rubik Bubbles', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+button {
+    position: absolute;
+    padding: 8px 25px;
+    font-size: 20px;
+    right: 0px;
+}
+
+.form-control {
+    max-width: 400px;
+    padding-right: 60px;
+}
+
+.creditials {
+    position: absolute !important;
+    bottom: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+    right: 50px;
+    left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}

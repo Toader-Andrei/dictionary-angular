@@ -1,0 +1,25 @@
+h1 {
+    font-size: 50px;
+    font-family: Georgia, serif;
+}
+
+.list-group-item {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+}
+
+.capitalize::first-letter {
+    text-transform: capitalize;
+}
+
+.capitalize {
+    font-size: 20px;
+    margin: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
