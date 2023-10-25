@@ -37,12 +37,12 @@ Dictionary is a sophisticated and user-friendly dictionary application designed 
 
 ### `1. npm install`
 
-### `2. Create environment.ts file under src/enviroments`
+### `2. Create environment.ts file under src/environments`
 
 ### `3. For the environment constant add a new key called 'apiKey'.`
 
 ### `4. Create an API key at Words API website: ` https://www.wordsapi.com/docs/?javascript#introduction
 
-### `5. Use the API key in the enviroment.ts file`
+### `5. Use the API key in the environment.ts file`
 
 ### `6. ng serve --open`
