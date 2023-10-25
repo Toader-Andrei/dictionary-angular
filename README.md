@@ -33,7 +33,7 @@ Dictionary is a sophisticated and user-friendly dictionary application designed 
 
 #### Note: Due to security and billing reasons, the API key has been excluded from the project.
 
-#### Please see below from futher intructions.
+#### Please see below for futher intructions.
 
 ### `1. npm install`
 
